@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta name="description" content="">
+			
+			<!-- Mobile viewport optimized -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			
+			<!-- Bootstrap CSS -->
+			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+			<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+			<!-- Custom CSS -->
+			<link href="bootstrap/css/styles.css" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			
+			<!-- Include Modernizr in the head, before any other Javascript -->
+			<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+					<button class="navbar-toggle collapsed" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Learner.com</a>
+					</div>
+					<div class="navbar-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li class="active"><a href="explore.html">Explore</a></li>
+							<li><a href="signin.html">Login</a></li>
+						</ul>
+						<form class="navbar-form navbar-left">
+							<input type="text" class="form-control" placeholder="search.." id="searchbox">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></span></button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="btn btn-default btn-sm toggle-dropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-th-list">  <strong class="caret"></strong></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Videos</a></li>
+									<li><a href="#">PDFs</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Others</li>
+									<li class="disabled"><a href="#">Feedback</a></li>
+									<li><a href="#">Q&A</a></li>
+									<li><a href="#">Scholarship test</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="page-header">
+				<h2>Welcome User | <small>You are not logged in</small></h2>
+			</div>
+			<div class="row" id="tab-sect"><!--Start of tab section-->
+				<div class="col-12">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">All Tutorials</a></li>
+							<li><a href="#tab2" data-toggle="tab">Videos</a></li>
+							<li><a href="#tab3" data-toggle="tab">PDFs</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<div class="tab1_one">
+									<div class="col-12">
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>C Programming</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video on c programming</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>JavaScript</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">PDFs on Javascript</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Maths-Statistics</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video for class 10</p>
+													</div>	
+												</div>
+											</div>
+									</div>
+								</div><!--End of first container-->
+								<div class="tab1_two">
+									<div class="col-12">
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Maths-Surfaceare</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video for class-9</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Maths-Polynomials</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video for class-8</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Maths-SurfaceAre</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading Materials for class-10</p>
+													</div>	
+												</div>
+											</div>
+									</div>
+								</div><!--End of 2nd container-->
+								<div class="tab1_three">
+									<div class="col-12">
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>HTML/CSS</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video about HTML/CSS</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Java Programming</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video about basics of Java</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Newton's Law</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video for class-9</p>
+													</div>	
+												</div>
+											</div>
+									</div>
+								</div><!--End of third container-->
+								<div class="tab1_four">
+									<div class="col-12">
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Food Chain</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about foodchain for class-8</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Database</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">PDF of Database Management System</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Algorithms</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials for Algorithm&Programming</p>
+													</div>	
+												</div>
+											</div>
+										</div>
+								</div><!--End of fourth container-->
+							</div><!--End of tab1-->	
+							<div class="tab-pane" id="tab2">
+								<div class="tab2_one">
+									<div class="col-12">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h4>Videos for students upto class 10</h4>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Newton's Law</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video About Newton's Law</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Surface Area</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video about surface area</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Algebra</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">PDFs on matrix algebra</p>
+													</div>	
+												</div>
+											</div>
+											<div class="panel-footer">
+												<p class="lead"><a href="#">More...</a></p>
+											</div>
+										</div>
+									</div>
+								</div><!--End of part one of tab2-->
+								<div class="tab2_two">
+									<div class="col-12">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h4>Videos about different technologies</h4>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Bootstrap</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Videos on bootstrap</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>OOPS Concept</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Video about oops</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Shell Programming</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Basics of shell</p>
+													</div>	
+												</div>
+											</div>
+											<div class="panel-footer">
+												<p class="lead"><a href="#">More...</a></p>
+											</div>
+										</div>
+									</div>
+								</div><!--End of 2nd part of tab2-->
+							</div><!--End of tab2-->
+							<div class="tab-pane" id="tab3">
+								<div class="tab3_one">
+									<div class="col-12">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h4>PDFs about different technologies</h4>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>Control Systems</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about Control Systems</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>JQUERY</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about basics of jquery</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>UNIX</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about unix for beginners</p>
+													</div>	
+												</div>
+											</div>
+											<div class="panel-footer">
+												<p class="lead"><a href="#">More...</a></p>
+											</div>
+										</div>
+									</div>
+								</div><!--End of part1 of tab3-->
+								<div class="tab3_two">
+									<div class="col-12">
+										<div class="panel panel-default">
+											<div class="panel-heading">
+												<h4>PDFs for students upto class 10</h4>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>POLYNOMIALS</h4>
+													</div>
+													<a href="#"><img src="images/free.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about polynomials</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>NEWTON's LAW</h4>
+													</div>
+													<a href="explore.html"><img src="images/unlimited.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about Newton's Law</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4>English Grammer</h4>
+													</div>
+													<a href="#"><img src="images/q&a.jpg" width="260" height="180" class="img-rounded"></a>
+													<div class="panel-footer">
+														<p class="lead">Reading materials about english grammer</p>
+													</div>	
+												</div>
+											</div>
+											<div class="panel-footer">
+												<p class="lead"><a href="#">More...</a></p>
+											</div>
+										</div>
+									</div>
+								</div><!--End of part2 of tab3-->
+							</div><!--End of tab3-->
+						</div><!--End of tab-content -->
+					</div><!--End of tabbable content-->
+				</div><!--End of tab section-->
+			</div>
+		</div><!--End of whole container-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 one">
+						<h4><strong>LEARN UNTIL YOU GAIN</strong></h4><hr>
+						<h6>Copyright &copy; learning.com|2016</h6>
+					</div>
+					<div class="col-md-3 two">
+						<h4><strong>Contact Us</strong></h4>
+						<p><strong>Learning Center,Bangalore-560054</strong></p>
+						<p><strong>Phone : 7858000978</strong></p>
+						<p><strong>Email : learning@gmail.com</strong></p>
+					</div>
+					<div class="col-md-3 three">
+						<h4><strong>Follow Us</strong></h4>
+						<form>
+						<p><strong><a href="#">https://quora.com/learning.com</a></strong></p>
+						<p><strong><a href="#">https://facebook.com/learning.com</a></strong></p>
+						<p><strong><a href="#">https://twitter.com/learning.com</a></strong></p>
+						<p><strong><a href="#">https://googleplus.com/learning.com</a></strong></p>
+						</form>
+					</div>
+					<div class="col-md-2 four">
+						<h4>Quiklinks</h4>
+						<p><strong><a href="#">Settings</a></strong></p>
+						<p><strong><a href="#">Helpline</a></strong></p>
+						<p><strong><a href="#">FAQ</a></strong></p>
+					</div>
+				</div><!--End of footer row-->
+			</div><!--End of footer container-->
+		</footer><!--End of footer section-->
+		
+<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta name="description" content="">
+			
+			<!-- Mobile viewport optimized -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			
+			<!-- Bootstrap CSS -->
+			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+			<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+			<!-- Custom CSS -->
+			<link href="bootstrap/css/styles.css" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			
+			<!-- Include Modernizr in the head, before any other Javascript -->
+			<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+					<button class="navbar-toggle collapsed" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html" >Learner.com</a>
+					</div>
+					<div class="navbar-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="explore.html">Explore</a></li>
+							<li class="active"><a href="signin.html">Login</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="btn btn-default btn-sm toggle-dropdown" data-toggle="dropdown"><span class="glyphicon glyphicon-th-list">  <strong class="caret"></strong></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Videos</a></li>
+									<li><a href="#">PDFs</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Others</li>
+									<li class="disabled"><a href="#">Feedback</a></li>
+									<li><a href="#">Q&A</a></li>
+									<li><a href="#">Scholarship test</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="login">
+				<div class="col-12">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h4>Login Here</h4>
+							</div>
+							<form>
+								<div class="form-group">
+									<label>Username</label>
+									<input type="text" name="username" placeholder="type your username here">
+								</div>
+								<div class="form-group">
+									<label>Password</label>
+									<input type="password" name="password" placeholder="type your password here">
+								</div>
+							</form>
+							<div class="panel-footer">
+								<a href="account.html" class="btn btn-warning" role="button">Submit</a>
+							</div>
+						</div>	
+					</div>
+					<div class="col-md-4">
+					</div>
+				</div>	
+			</div><!--End of login form-->
+			<hr>
+			<div class="row" id="signup">
+				<a href="#myModal" class="btn btn-primary" role="button" data-toggle="modal">Not a Member..Click here to register</a>
+				<div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Register Here</h4>
+							</div>
+							<div class="modal-body">
+								<form class="horizontal-form">
+									<div class="form-group">
+										<label>Fullname</label>
+										<input type="text" name="name" placeholder="type your name here">
+									</div>
+									<div class="form-group">
+										<label>Email Id </label>
+										<input type="text" name="username" placeholder="type your email here">
+									</div>
+									<div class="form-group">
+										<label>Username</label>
+										<input type="text" name="username" placeholder="type your username here">
+									</div>
+									<div class="form-group">
+										<label>Password</label>
+										<input type="password" name="password" placeholder="type your password here">
+									</div>
+									<a href="account.html" class="btn btn-warning" role="button" id="alert_me">Submit</a>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--End of signup section-->
+		</div><!--End of whole container-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 one">
+						<h4><strong>LEARN UNTIL YOU GAIN</strong></h4><hr>
+						<h6>Copyright &copy; learning.com|2016</h6>
+					</div>
+					<div class="col-md-3 two">
+						<h4><strong>Contact Us</strong></h4>
+						<p><strong>Learning Center,Bangalore-560054</strong></p>
+						<p><strong>Phone : 7858000978</strong></p>
+						<p><strong>Email : learning@gmail.com</strong></p>
+					</div>
+					<div class="col-md-3 three">
+						<h4><strong>Follow Us</strong></h4>
+						<form>
+						<p><strong><a href="#">https://quora.com/learning.com</a></strong></p>
+						<p><strong><a href="#">https://facebook.com/learning.com</a></strong></p>
+						<p><strong><a href="#">https://twitter.com/learning.com</a></strong></p>
+						<p><strong><a href="#">https://googleplus.com/learning.com</a></strong></p>
+						</form>
+					</div>
+					<div class="col-md-2 four">
+						<h4>Quiklinks</h4>
+						<p><strong><a href="#">Settings</a></strong></p>
+						<p><strong><a href="#">Helpline</a></strong></p>
+						<p><strong><a href="#">FAQ</a></strong></p>
+					</div>
+				</div><!--End of footer row-->
+			</div><!--End of footer container-->
+		</footer><!--End of footer section-->
+		
+<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+
+</body>
+</html>

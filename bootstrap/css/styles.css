@@ -1,0 +1,212 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+   background: url('../../images/backgrnd.jpg')no-repeat;
+ background-size: 4000px 4000px;  
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+.well{
+   height: 100px;
+}
+#partition-3{
+   margin-top: 20px;
+   text-align: center;
+}
+img{
+   width: 260px;
+   height: 180px;
+}
+#partition-3 .panel{
+   margin-top: 20px;
+}
+#partition-3 p,#partition-3 h4{
+   font-size: 20px;
+}
+#partition-3 img,#partition-class img{
+   margin-bottom: 10px;
+}
+#partition-2 .sub{
+   font-size: 18px;
+}
+#partition-2 img{
+   margin-top: 10px;
+   text-align: center;
+}
+.panel{
+   text-align: center;
+}
+.panel img{
+   border: 1px solid grey;
+   margin-top: 10px;
+}
+.tabbable ul{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.tabbable img{
+   margin-bottom: 10px;
+}
+.tab2 .lead,.tab3 .lead{
+   text-align: right;
+}
+#login .col-md-4 .panel{
+   margin-top: 100px;
+   background: #F0F0F0;
+   text-align: center;
+}
+.form-group{
+   padding-top: 20px;
+}
+#signup{
+   text-align: center;
+   margin-bottom: 110px;
+}
+.table{
+   background: #F0F0F0;
+}
+footer{
+   background:grey;  
+}
+footer .one h4{
+   text-align: center;
+   color: lightgrey;
+}
+footer p{
+   font-size: 15px;
+   color: lightgrey;
+}
+footer p a{
+   color: lightgrey;
+   text-decoration: none;
+}
+footer h4{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: black;
+}
+footer h6{
+   text-align: center;
+   color: lightgrey;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchbox{
+      width: 200px;
+   }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+      margin-top: 70px;
+   }
+   .carousel-caption h1{
+      font-size: 40px;
+      color: yellow;
+   }
+   #myCarousel .item{
+      height: 400px;
+   }
+   #slide1{
+      background: url('../../images/carousel_medium_04.jpg')top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+   }
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   #bigcallout{
+      margin-bottom: 20px;
+   }
+   .progress{
+      border:1px solid black;
+   }
+   .page-header{
+      margin-top: 60px;
+   }
+   .breadcrumb{
+      margin-top: 70px;
+   }
+   #partition-3,#partition-2{
+      background: #F0F0F0;
+      margin-bottom: 20px;
+      border-radius: 25px;
+   }
+   #partition-3 img{
+      padding-top: 10px;
+   }
+  .welcome{
+   margin-top: 5px;
+  }
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	  #myCarousel .item{
+      height: 310px;
+   }
+   #slide1{
+      background: url('../../images/carousel_small_04.jpg')top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/carousel_small_05.jpg')top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/carousel_small_06.jpg')top center no-repeat;
+   }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{
+      height: 400px;
+   }
+   #slide1{
+      background: url('../../images/carousel_medium_04.jpg')top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/carousel_medium_06.jpg')top center no-repeat;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item{
+      height: 500px;
+   }
+   #slide1{
+      background: url('../../images/carousel_large_04.jpg')top center no-repeat;
+   }
+   #slide2{
+      background: url('../../images/carousel_large_05.jpg')top center no-repeat;
+   }
+   #slide3{
+      background: url('../../images/carousel_large_06.jpg')top center no-repeat;
+   }
+}
