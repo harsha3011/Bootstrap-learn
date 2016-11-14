@@ -14,11 +14,26 @@ Notes:	 Hand coded for Udemy.com
    Layout
    -------------------------------------- */
 body{
-   background: url('../../images/backgrnd.jpg')no-repeat;
- background-size: 4000px 4000px;  
+   background: white; 
 }
-
-
+.navbar-inverse{
+   background: #990099;
+   color: white;
+}
+.navbar-inverse .navbar-brand{
+   color: white;
+}
+.navbar-inverse .heading strong{
+color: white
+}
+.dropdown a .badge{
+   background: white;
+   color: black;
+}
+.dropdown-menu a .badge{
+   background: blue;
+   color: white;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -30,8 +45,14 @@ body{
    text-align: center;
 }
 img{
-   width: 260px;
    height: 180px;
+   width: 60%
+}
+iframe{
+   width: 60%;
+   height: 195px;
+   padding-bottom: 10px;
+   padding-top: 10px;
 }
 #partition-3 .panel{
    margin-top: 20px;
@@ -56,6 +77,15 @@ img{
    border: 1px solid grey;
    margin-top: 10px;
 }
+.pag-right{
+   text-align: right;
+}
+.col-md-4 .panel{
+   margin-top: 10px;
+}
+.col-md-4 .panel-footer{
+   background-color: white;
+}
 .tabbable ul{
    margin-top: 5px;
    margin-bottom: 5px;
@@ -63,12 +93,22 @@ img{
 .tabbable img{
    margin-bottom: 10px;
 }
-.tab2 .lead,.tab3 .lead{
+#tab2 .lead,#tab3 .lead{
    text-align: right;
+}
+#tab2 .col-md-4 .lead,#tab3 .col-md-4 .lead{
+   text-align: center;
+}
+hr{
+   border: 1px solid #990099;
+}
+.nav-tabs li{
+   border:1px solid black;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 #login .col-md-4 .panel{
    margin-top: 100px;
-   background: #F0F0F0;
    text-align: center;
 }
 .form-group{
@@ -78,8 +118,15 @@ img{
    text-align: center;
    margin-bottom: 110px;
 }
+#al_sub{
+   display: none;
+
+}
 .table{
    background: #F0F0F0;
+}
+.sect2 .panel-footer{
+   border-bottom: hidden;
 }
 footer{
    background:grey;  
@@ -105,6 +152,9 @@ footer h6{
    text-align: center;
    color: lightgrey;
 }
+footer hr{
+   border: 1px solid lightgrey;  
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -117,21 +167,21 @@ footer h6{
    #myCarousel{
       margin-top: 70px;
    }
-   .carousel-caption h1{
-      font-size: 40px;
-      color: yellow;
+   .carousel-caption {
+      color: black;
+      text-align: right;
    }
    #myCarousel .item{
       height: 400px;
    }
    #slide1{
-      background: url('../../images/carousel_medium_04.jpg')top center no-repeat;
+      background: url('../../images/carousel_medium_01.jpg')top center no-repeat;
    }
    #slide2{
-      background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+      background: url('../../images/carousel_medium_02.jpg')top center no-repeat;
    }
    #slide3{
-      background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+      background: url('../../images/carousel_medium_04.jpg')top center no-repeat;
    }
 /* --------------------------------------
    Global Styles
@@ -169,13 +219,13 @@ footer h6{
       height: 310px;
    }
    #slide1{
-      background: url('../../images/carousel_small_04.jpg')top center no-repeat;
+      background: url('../../images/carousel_small_01.jpg')top center no-repeat;
    }
    #slide2{
-      background: url('../../images/carousel_small_05.jpg')top center no-repeat;
+      background: url('../../images/carousel_small_02.jpg')top center no-repeat;
    }
    #slide3{
-      background: url('../../images/carousel_small_06.jpg')top center no-repeat;
+      background: url('../../images/carousel_small_03.jpg')top center no-repeat;
    }
 }
 
@@ -185,13 +235,13 @@ footer h6{
       height: 400px;
    }
    #slide1{
-      background: url('../../images/carousel_medium_04.jpg')top center no-repeat;
+      background: url('../../images/carousel_medium_01.jpg')top center no-repeat;
    }
    #slide2{
-      background: url('../../images/carousel_medium_05.jpg')top center no-repeat;
+      background: url('../../images/carousel_medium_02.jpg')top center no-repeat;
    }
    #slide3{
-      background: url('../../images/carousel_medium_06.jpg')top center no-repeat;
+      background: url('../../images/carousel_medium_03.jpg')top center no-repeat;
    }
 }
 
@@ -201,12 +251,12 @@ footer h6{
       height: 500px;
    }
    #slide1{
-      background: url('../../images/carousel_large_04.jpg')top center no-repeat;
+      background: url('../../images/carousel_large_01.jpg')top center no-repeat;
    }
    #slide2{
-      background: url('../../images/carousel_large_05.jpg')top center no-repeat;
+      background: url('../../images/carousel_large_02.jpg')top center no-repeat;
    }
    #slide3{
-      background: url('../../images/carousel_large_06.jpg')top center no-repeat;
+      background: url('../../images/carousel_large_03.jpg')top center no-repeat;
    }
 }

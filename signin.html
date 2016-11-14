@@ -17,6 +17,7 @@
 			
 			<!-- Include Modernizr in the head, before any other Javascript -->
 			<script src="includes/js/modernizr-2.6.2.min.js"></script>
+			<script type="text/javascript" src="bootstrap/js/script.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -31,11 +32,11 @@
 					<a class="navbar-brand" href="index.html" >Learner.com</a>
 					</div>
 					<div class="navbar-collapse collapse navbar-responsive-collapse">
-						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="explore.html">Explore</a></li>
-							<li class="active"><a href="signin.html">Login</a></li>
+						<ul class="nav navbar-nav heading">
+							<li><a href="index.html"><strong>Home</strong></a></li>
+							<li><a href="#"><strong>About</strong></a></li>
+							<li><a href="explore.html"><strong>Explore</strong></a></li>
+							<li class="active"><a href="signin.html"><strong>Login</strong></a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li class="dropdown">
@@ -85,6 +86,10 @@
 			<hr>
 			<div class="row" id="signup">
 				<a href="#myModal" class="btn btn-primary" role="button" data-toggle="modal">Not a Member..Click here to register</a>
+				<div class="alert alert-info alert_block fade_in" id="al_sub">
+					<button type = "button" class = "close" data-dismiss = "alert" aria-hidden = "true">&times;</button>
+ 					<strong>Successfully registerd</strong>
+				</div>
 				<div class="modal fade" id="myModal" role="dialog">
 					<div class="modal-dialog">
 						<div class="modal-content">
@@ -108,10 +113,13 @@
 									</div>
 									<div class="form-group">
 										<label>Password</label>
-										<input type="password" name="password" placeholder="type your password here">
+										<input type="password" name="password" placeholder="type your password here"><br>
+										<a href="#" data-toggle="popover" data-content="Must be 8 characters long">Password Criteria</a>
 									</div>
-									<a href="account.html" class="btn btn-warning" role="button" id="alert_me">Submit</a>
 								</form>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-warning" role="button" data-dismiss="modal" id="btn_sub">Submit</button>
 							</div>
 						</div>
 					</div>

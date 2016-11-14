@@ -31,16 +31,16 @@
 						<a class="navbar-brand navbar-left" href="#">Learner.com</a>
 					</div>
 					<div class="navbar-collapse collapse navbar-responsive-collapse">
-						<ul class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right heading">
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">MyAccount <strong class="caret"></strong></span></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"> <strong>MyAccount</strong>  <span class="badge">1</span> <strong class="caret"></strong></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">Scholarship Tests</a></li>
 									<li><a href="#">Your Test</a></li>
 									<li class="divider"></li>
 									<li class="dropdown-header">Account</li>
 									<li><a href="#">My Profile</a></li>
-									<li><a href="#">Notifications<span class="badge">1</span></a></li>
+									<li><a href="#">Notifications <span class="badge">1</span></a></li>
 									<li><a href="#">Settings</a></li>
 									<li><a href="#">FAQ</a></li>
 									<li><a href="index.html">Logout</a></li>
@@ -82,15 +82,93 @@
 				</div>
 			</div><!--End of bigcallout section-->
 			<hr>
+			<h3>Your Contents</h3>
 			<div class="row">
-				<h2>From your Selections</h2>
-				<div class="row" id="partition-class">
+				<div class="col-12 sect2">
+					<div class="col-md-6">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<td>Subject</td>
+									<td>Progress</td>
+									<td>Last Visited</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Maths</td>
+									<td>
+										<div class="progress">
+											<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+											<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+										</div>
+										<p>In Progress</p>
+									</td>
+									<td>18:06:34,Oct 8</td>
+								</tr>
+								<tr>
+									<td>English</td>
+									<td>
+										<div class="progress">
+											<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
+										</div>
+										<p>Completed</p>
+									</td>
+									<td>20:16:54,Sep 19</td>
+								</tr>
+								<tr>
+									<td>Physics</td>
+									<td>
+										<div class="progress">
+											<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">0%</div>
+										</div>
+										<p>Not Started</p>
+									</td>
+									<td>09:06:03,Jun 1</td>
+								</tr>
+								<tr>
+									<td>Chemistry</td>
+									<td>
+										<div class="progress">
+											<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
+											<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+										</div>
+										<p>In Progress</p>
+									</td>
+									<td>11:32:34,Nov 1</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<div class="panel-title"><em>What's New</em></div>
+							</div>
+								<ul class="list-group">
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-play"></span> Videos on Pronouns</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span> PDFs on Newtons Law</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span> PDFs on graph theory</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-play"></span> Videos on Functions</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-play"></span> Videos on Foodchain</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span> PDFs on Geometry</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span> PDFs on algebra</a></li>
+									<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span> PDFs on Probability</a></li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<h2>Recommended - <small>based on your recent views</small></h2>
+			<div class="row">
+				<div class="col-12" id="partition-class">
 					<div class="col-md-4">
-						<div class="panel panel-default">
+						<div class="panel panel-info">
 							<div class="panel-heading">
 								<h4>Geometry</h4>
 							</div>
-							<a href="#"><img src="images/free.jpg" class="img-rounded"></a>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/Qi8nBVPPt9o" frameborder="0" allowfullscreen></iframe>
 							<div class="panel-footer">
 								<p class="lead">Video Lecture</p>
 								<p>Available till March 9th 2017</p>		
@@ -98,11 +176,11 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="panel panel-default">
+						<div class="panel panel-warning">
 							<div class="panel-heading">
 								<h4>Nouns</h4>
 							</div>
-							<a href="explore.html"><img src="images/unlimited.jpg" class="img-rounded"></a>
+							<a href="http://www.chompchomp.com/terms/noun.pdf"><img src="images/controlsystems.jpg" class="img-rounded"></a>
 							<div class="panel-footer">
 							<p class="lead">PDF Material</p>
 							<p>Available till March 9th 2017</p>	
@@ -110,92 +188,19 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="panel panel-default">
+						<div class="panel panel-success">
 							<div class="panel-heading">
 								<h4>Polynomials</h4>
 							</div>
-							<a href="#"><img src="images/q&a.jpg" class="img-rounded"></a>
+							<iframe width="640" height="360" src="https://www.youtube.com/embed/cqNmVJk7Zyg" frameborder="0" allowfullscreen></iframe>
 							<div class="panel-footer">
 								<p class="lead">Online Tutorial</p>
 								<p>Available till March 9th 2017</p>	
 							</div>	
 						</div>
 					</div>
-				</div><!--End of 3column section-->
-				<div>
-					<h3>Your Contents</h3>
-					<div class="col-12">
-						<div class="col-md-6">
-							<table class="table table-hover">
-								<thead>
-									<tr>
-										<td>Subject</td>
-										<td>Progress</td>
-										<td>Last Visited</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Maths</td>
-										<td>
-											<div class="progress">
-												<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
-											</div>
-											<p>In Progress</p>
-										</td>
-										<td>18:06:34,Oct 8</td>
-									</tr>
-									<tr>
-										<td>English</td>
-										<td>
-											<div class="progress">
-												<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">100%</div>
-											</div>
-											<p>Completed</p>
-										</td>
-										<td>20:16:54,Sep 19</td>
-									</tr>
-									<tr>
-										<td>Physics</td>
-										<td>
-											<div class="progress">
-												<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">0%</div>
-											</div>
-											<p>Not Started</p>
-										</td>
-										<td>09:06:03,June 1</td>
-									</tr>
-									<tr>
-										<td>Chemistry</td>
-										<td>
-											<div class="progress">
-												<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
-											</div>
-											<p>In Progress</p>
-										</td>
-										<td>11:32:34,Nov 1</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<div class="col-md-6">
-							<div class="panel panel-success">
-								<div class="panel-heading">
-									<div class="panel-title">Recently Uploaded</div>
-								</div>
-								<div class="Panel-body">
-									<ul class="list-group">
-										<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-play"></span> Videos on Pronouns</li>
-										<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span>PDFs on Newtons Law</li>
-										<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-paperclip"></span>PDFs on graph theory</li>
-										<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-play"></span>Videos on Functions</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
-			</div><!--End of 2nd row section-->
+			</div><!--End of content section-->
 		</div>
 		<footer>
 			<div class="container">

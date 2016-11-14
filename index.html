@@ -13,11 +13,11 @@
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="bootstrap/js/script.js"></script>
+		
 		<!-- Custom CSS -->
 		<link href="bootstrap/css/styles.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/script.js"></script>
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 	</head>
@@ -26,19 +26,19 @@
 			<div class="navbar navbar-inverse navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
-					<button class="navbar-toggle collapsed" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html" >Learner.com</a>
+						<button class="navbar-toggle collapsed" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html" >Learner.com</a>
 					</div>
 					<div class="navbar-collapse collapse navbar-responsive-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="explore.html">Explore</a></li>
-							<li><a href="signin.html">Login</a></li>
+						<ul class="nav navbar-nav heading">
+							<li class="active"><a href="index.html"><strong>Home</strong></a></li>
+							<li><a href="#"><strong>About</strong></a></li>
+							<li><a href="explore.html"><strong>Explore</strong></a></li>
+							<li><a href="signin.html"><strong>Login</strong></a></li>
 						</ul>
 						<form class="navbar-form navbar-left">
 							<input type="text" class="form-control" placeholder="search.." id="searchbox">
@@ -52,7 +52,7 @@
 									<li><a href="#">PDFs</a></li>
 									<li class="divider"></li>
 									<li class="dropdown-header">Others</li>
-									<li class="disabled"><a href="#">Feedback</a></li>
+									<li class="disabled"><a href="#" data-toggle="tooltip" title="Login first to give feedback" data-placement="left" data-content="">Feedback</a></li>
 									<li><a href="#">Q&A</a></li>
 									<li><a href="#">Scholarship test</a></li>
 								</ul>
@@ -71,21 +71,22 @@
 	        		<div class="item active" id="slide1">
 	        	    	<div class="container">
 	              			<div class="carousel-caption">
-	              				<h1>Happy Learning</h1>
+	              				<p class="lead"><strong>It's Time to Learn..<br>Analyze<br>Create<br>Read<br>Write<br>Think</strong></p>
 	            			</div>
 	          	    	</div>
 	        		</div>
 		        	<div class="item" id="slide2">
 	          			<div class="container">
 	            			<div class="carousel-caption">
-	            			  <h1>HAPPY LEARNING</h1>
+	            			 	<p class="lead"><strong>We have plenty of materials with us.<br>Join us and experience the world of learning</strong></p>
+	            			 	<h2>Happy Learning</h2>
 	            			</div>
 	          			</div>
 	        		</div>
 	        		<div class="item" id="slide3">
 	          			<div class="container">
 	            			<div class="carousel-caption">
-	           			   		<h1>UPDATED</h1>
+	           			   		<p class="lead"><strong>Learn wherever you go<br> Download app from <a href="#">Google Play</a> for free</strong></p>
 	            			</div>
 	          			</div>
 	        		</div>
@@ -95,7 +96,7 @@
 	    	</div>
 			<div class="row" id="partition-3">
 				<div class="col-md-4">
-					<div class="panel panel-default">
+					<div class="panel panel-success">
 						<div class="panel-heading">
 							<h4>FREE SUBSCRIPTION</h4>
 						</div>
@@ -107,7 +108,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="panel panel-default">
+					<div class="panel panel-info">
 						<div class="panel-heading">
 							<h4>LEARN FROM ANYWHERE</h4>
 						</div>
@@ -119,7 +120,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="panel panel-default">
+					<div class="panel panel-danger">
 						<div class="panel-heading">
 							<h4>QUERIES????</h4>
 						</div>
